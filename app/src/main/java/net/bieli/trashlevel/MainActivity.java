@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import net.bieli.trashlevel.mqtt.Client;
 import net.bieli.trashlevel.view.ChooseNextLevelOnClickListener;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,5 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
         View.OnClickListener listener = new ChooseNextLevelOnClickListener(getResources(), image);
         button.setOnClickListener(listener);
+
+//        Client client = new Client(this.getApplicationContext());
+//        client.connect("broker.mqttdashboard.com:1883");
+//        client.subscribe("net.bieli.trashlevel/trash/home");
     }
 }
