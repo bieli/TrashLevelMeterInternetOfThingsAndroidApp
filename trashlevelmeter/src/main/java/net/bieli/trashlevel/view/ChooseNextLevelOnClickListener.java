@@ -21,17 +21,9 @@ public class ChooseNextLevelOnClickListener implements View.OnClickListener {
     // Store the location of images inside the array
     private Drawable [] drawables = null;
 
-    public ChooseNextLevelOnClickListener(Resources resources, ImageView image) {
+    public ChooseNextLevelOnClickListener(Resources resources, ImageView image, Drawable [] drawables) {
         this.resources = resources;
         this.image = image;
-        drawables = new Drawable[] {
-                ResourcesCompat.getDrawable(getResources(), R.drawable.t0, null),
-                ResourcesCompat.getDrawable(getResources(), R.drawable.t1, null),
-                ResourcesCompat.getDrawable(getResources(), R.drawable.t2, null),
-                ResourcesCompat.getDrawable(getResources(), R.drawable.t3, null),
-                ResourcesCompat.getDrawable(getResources(), R.drawable.t4, null),
-                ResourcesCompat.getDrawable(getResources(), R.drawable.t5, null)
-        };
     }
 
     @Override
