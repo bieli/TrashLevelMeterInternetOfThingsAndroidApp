@@ -1,7 +1,7 @@
 Trash Level Meter
 =================
 
-Internet of Things Android frontend application for measure trash (gravage) level.
+Internet of Things Android frontend application for measure trash (rubbish) level.
 
 Screenshot
 -----------
