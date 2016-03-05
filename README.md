@@ -11,6 +11,6 @@ Screenshot
 Application APK - to download
 -----------
 ![Trash Level Meter APK Icon](https://raw.github.com/bieli/TrashLevelMeterInternetOfThingsAndroidApp/master/trashlevelmeter/src/main/res/mipmap-xhdpi/ic_launcher.png)
-[![Install by click - trashlevelmeter.apk](https://raw.github.com/bieli/TrashLevelMeterInternetOfThingsAndroidApp/master/distribution/trashlevelmeter-release-unsigned.apk)]
+[![Install by click - trashlevelmeter.apk](https://github.com/bieli/TrashLevelMeterInternetOfThingsAndroidApp/raw/master/distribution/trashlevelmeter-release-unsigned.apk)]
 
 
