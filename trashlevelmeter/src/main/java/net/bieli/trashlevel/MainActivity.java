@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText);
         View.OnClickListener listener =
                 new GetLevelFromHttpServiceOnClickListener(
-                        image, editText, drawables, "http://bieli.net", "net.bieli.trashlevel/trash/home/");
+                        image, editText, drawables, "https://bieli.net", "net.bieli.trashlevel/trash/home/");
         button.setOnClickListener(listener);
         image.setOnClickListener(listener);
 //        addListenerOnButton();
